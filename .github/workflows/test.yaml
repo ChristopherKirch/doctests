@@ -1,7 +1,5 @@
 name: tests
-^W^W
-on:^W
-
+on:
   push:
     branches: ['*']
 jobs:
@@ -19,4 +17,3 @@ jobs:
       - name: Run tests
         run: |
           python -m doctest --verbose lab.py
-≈≈≈
