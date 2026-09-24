@@ -140,14 +140,14 @@ def max_num_4(a, b, c, d):
     >>> max_num_4(10,1,2,3)
     10
     '''
-    if a > b and a > c and a > d:
+
+    if a >= b and a >= c and a >= d:
         return a
-    if b > a and b > c and b > d:
+    if b >= a and b >= c and b >= d:
         return b
-    if c > a and c > b and c > d:
+    if c >= a and c >= b and c >= d:
         return c
-    if d > a and d > b and d > c:
-        return d
+    return d
 
 
 
