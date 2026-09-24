@@ -1,5 +1,7 @@
 name: tests
-on:
+^W^W
+on:^W
+
   push:
     branches: ['*']
 jobs:
@@ -16,4 +18,5 @@ jobs:
           python-version: ${{matrix.python}}
       - name: Run tests
         run: |
-          python -m doctest --verbose .
+          python -m doctest --verbose lab.py
+≈≈≈
